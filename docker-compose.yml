@@ -10,6 +10,6 @@ services:
     volumes:
       - ./data:/app/qodo2api/data
     environment:
-      - QD_COOKIE=******  # cookie (多个请以,分隔)
-      - API_SECRET=123456  # [可选]接口密钥-修改此行为请求头校验的值(多个请以,分隔)
+      - QD_COOKIE=AIzaSyCMMynYm5VRHj1NOwkfWinX-HYsFArdUbk=AMf-vBx-qgjj35ifQPoQdFDv47VJOo2YUqbhgNukxLNGaSTE6BhMVsJcvj588Ioa9HCD7FT9t57pBE4iAvPurc5G0W7fipCC3SRME92csXV4I4KSKcm_Zg8LMzEanueK9SKR-T-aI9RmUaKoQvuLAGmaJHIA2-Zo9649fAg7ZEDB5nhWMZrcXolxqGA06l8gDMpneRj-JnYH
+      - API_SECRET=123456
       - TZ=Asia/Shanghai
